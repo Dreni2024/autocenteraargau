@@ -1,0 +1,396 @@
+
+/*this is first part */
+#header{
+    position: absolute;
+    top: 0px;
+}
+#logo{
+    width: 300px;
+    height: 150px;
+}
+.links>ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.links>ul>li{ 
+    padding: 15px;
+}
+.links>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.links>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.links>ul>li>a:hover{
+    color: rgb(0, 132, 255);
+}
+
+
+#container{
+    position: absolute;
+    top: 300px;
+}
+
+#button{
+    position: absolute;
+    top: 600px;
+}
+
+#shop-now{
+    background-color: #FF3E24;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 130px;
+}
+#shop-now a{
+    text-decoration: none;
+    color: black;
+}
+#shop-now:hover{
+    background-color: white;
+}
+@media only screen and (max-width: 600px) {
+    .logo{
+        text-align: center;
+    }
+    #logo{
+        width: 100px;
+        height: 80px;
+    }
+    .links{
+        position: relative;
+        bottom: 60px;
+        right: 15px;
+    }
+    .links>ul>li{ 
+        padding: 10px;
+    }
+    .links>ul>li>a{
+        font-size: 14px;
+    }
+    #h1{
+        font-size: 15px;
+    }
+    #h5{
+        font-size: 12px;
+    } 
+    .first-text{
+        position: relative;
+        bottom: 100px;
+    }
+    .second-text{
+        position: relative;
+        bottom: 80px;
+    }
+    #button{
+        position: absolute;
+        top: 400px;
+    }
+    #shop-now{
+        width: 90px;
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+/*------------------------------------*/
+
+/*There Starts the Second part*/
+
+
+#list{
+    display: flex;
+    width:max-content;
+}
+#formList{
+    width: 1070px;
+    max-width: 100%;
+    overflow: auto;
+    margin:100px auto 50px;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+}
+#formList::-webkit-scrollbar{
+    display: none;
+}
+
+.card {
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin: 3px;
+  }
+  .card img{
+      height: 200px;
+      width: 340px;
+      transition: transform 0.3s ease;
+  } 
+  .card img:hover{
+    transform: scale(1.1); /* Increase size by 10% */
+    /* filter: grayscale(100%); Convert to grayscale */
+} 
+.card a{
+      text-decoration: none;
+      background-color: black;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    position: relative;
+    top: 16px;
+  }
+  .card button:hover{
+      color: #FF3D24;
+  }
+#prev{
+    font-size: 25px;
+    color: black;
+    border-radius: 80%;
+    background-color: white;
+    border: 1px solid white;
+    width: 30px;
+    height: 40px;
+}
+#next{
+    font-size: 25px;
+    color: black;
+    border-radius: 80%;
+    background-color: white;
+    border: 1px solid white;
+    position: relative;
+    left: 40px;
+    width: 30px;
+    height: 40px;
+}
+#buttons{
+    position: relative;
+    bottom: 100px;
+} 
+#buttons button:hover{
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    #prev{
+        font-size: 20px;
+    }
+    #next{
+        font-size: 20px;
+    }
+    .card{
+        margin: 0;
+    }
+}
+/*------------------------------------*/
+
+/*There Starts the Third part*/
+
+
+/*------------------------------------*/
+
+/*There Starts the Fourth part*/
+.fourth-part{
+    margin-top: 200px;
+}
+.description{
+    color: white;
+    margin-left: 120px;
+}
+.best_car{
+    width: 600px;
+    height: 400px;
+}
+@media only screen and (max-width: 600px) {
+    .description{
+        margin-top: 30px;
+    }
+    .best_car{
+        width: 350px;
+        height: 200px;
+    }
+}
+
+/*------------------------------------*/
+
+/*There Starts the fifth part*/
+.fifth-part{
+    margin-top: 200px;
+    background-color: #400000;
+}
+.fifth-part a{
+    text-decoration: none;
+}
+.card {
+    transition: 0.3s;
+    width: 100%;
+  }
+  .card span{
+      color: red;
+      float: inline-end;
+  }
+  .card:hover {
+    border:2px solid red;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+  
+  .rating input[type="radio"] {
+    display: none;
+  }
+  
+  .rating label {
+    display: inline-block;
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .rating input[type="radio"]:checked ~ label {
+    color: gold;
+  }
+  
+  @media only screen and (max-width: 600px) {
+      .card{
+          margin-top: 20px;
+      }
+}
+/*------------------------------------*/
+
+/*There Starts the sixth part*/
+.sixth-part{
+    margin-top: 100px;
+    background-color: #0184FF;
+    color: white;
+}
+.sixth-part p{
+    font-size: 20px;
+}
+.sixth-part span{
+    font-size: 25px;
+    color: black;
+}
+.sixth-part a{
+    color: white;
+}
+.sixth-part a:hover{
+    color: black;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  /*------------------------------------*/
+
+/*There Starts the seventh part*/
+.seventh-part{
+    margin-top: 150px;
+    background-color: white;
+}
+/*------------------------------------*/
+
+/*There Starts the footer*/
+footer{
+    margin-top: 150px;
+}
+footer ul a{
+    text-decoration: none;
+    color: white;
+}
+footer li::marker{
+   color: #FF3E24;
+}
+footer li a:hover{
+    color: #0184FF;
+}
+footer p a{
+    color: white;
+}
+
+/*SOCIAL MEDIA BUTTONS */
+
+.fa {
+    padding: 12px;
+    font-size: 22px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  #whatsapp:hover{
+      opacity: 0.7;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  #logo-2{
+    width: 300px;
+    height: 150px;
+}
+  @media only screen and (max-width: 600px) {
+   #logo-2{
+       width: 180px;
+       height: 140px;
+   }
+}

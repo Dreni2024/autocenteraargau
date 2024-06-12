@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION ...</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../../style.css">
+<style>
+  body,html{
+    overflow-x: hidden;
+  }
+    * {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 25%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.mySlides{
+  text-align: center;
+}
+
+.mySlides img{
+  width: 800px;
+  height: 600px;
+}
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/*rating part*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.rating input[type="radio"] {
+  display: none;
+}
+
+.rating label {
+  font-size: 22px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.rating input[type="radio"]:checked ~ label {
+  color: gold;
+}
+#myVideo{
+    max-width: 100%;
+    height: 600px;
+    display: block;
+    margin: auto;
+  }
+  #myVideo-2{
+    max-width: 100%;
+    height: 600px;
+    display: block;
+    margin: auto;
+  }
+  @media (max-width: 768px) {
+    #myVideo {
+      max-width: 90%;
+    }
+    #myVideo-2{
+    max-width: 90%;
+  }
+  .mySlides img{
+    width: 300px;
+    height:300px;
+    position: relative;
+    left: 7px;
+  }
+  .prev,
+  .next{
+    position: absolute;
+    top: 35%;
+  }
+  }
+#message{
+        width: 300px; 
+        height: 200px; 
+        margin-top: 50px
+    }
+    @media only screen and (max-width: 600px) {
+        #message{
+            width: 200px;
+        }
+    }
+    .comments-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.comment {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.delete-button {
+  margin-left: 5px;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+</style>
+</head>
+<body style="background-color: black;">
+    <!--There begins the header part-->
+    <header>
+        <div class="container-fluid border border-light">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="logo">
+                        <img src="../../../img/logo-1.jpg" alt="" id="logo">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right-side"> 
+                        <div class="links float-end mt-5">
+                            <ul>
+                               <li><a href="../../../index.html">Home</a></li>
+                               <li><a href="../../../Kategorie/index.html">Kategorie</a></li>
+                               <li><a href="../../../Uberuns/index.html">Über uns</a></li>
+                               <li><a href="../../../Kontakt/contact.html">Kontakt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--There finishs the header part-->
+    
+    <section>
+        <!--First content-->
+<!-- Container for the image gallery -->
+<div class="container mt-5">
+  <div class="row">
+      <div class="col-md-12 text-center">
+          <h3 style="color: #FF3E24;">
+            VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION, Facelit Modell 2018, 7 Sitze!
+          </h3>
+      </div>
+  </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 15</div>
+        <img src="1.jpeg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 15</div>
+        <img src="2.jpeg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 15</div>
+        <img src="3.jpeg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 15</div>
+        <img src="4.jpeg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 15</div>
+        <img src="5.jpeg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 15</div>
+        <img src="6.jpeg">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">7 / 15</div>
+        <img src="7.jpeg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">8 / 15</div>
+        <img src="8.jpeg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">9 / 15</div>
+        <img src="9.jpeg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">10 / 15</div>
+        <img src="10.jpeg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">11 / 15</div>
+        <img src="11.jpeg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">12 / 15</div>
+        <img src="12.jpeg">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">13 / 15</div>
+        <img src="13.jpeg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">14 / 15</div>
+        <img src="14.jpeg">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">15 / 15</div>
+        <img src="15.jpeg">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="1.jpeg" style="width:100%" onclick="currentSlide(1)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION ...">
+      </div>
+      <div class="column"> 
+        <img class="demo cursor" src="2.jpeg" style="width:100%" onclick="currentSlide(2)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION ...">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="3.jpeg" style="width:100%" onclick="currentSlide(3)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION ...">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="4.jpeg" style="width:100%" onclick="currentSlide(4)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION ...">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="5.jpeg" style="width:100%" onclick="currentSlide(5)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION ...">
+      </div> 
+      <div class="column">
+        <img class="demo cursor" src="6.jpeg" style="width:100%" onclick="currentSlide(6)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION  ...">
+      </div>
+     </div>
+     <div class="row mt-4">
+      <div class="column">
+        <img class="demo cursor" src="7.jpeg" style="width:100%" onclick="currentSlide(7)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION  ...">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="8.jpeg" style="width:100%" onclick="currentSlide(8)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION  ...">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="9.jpeg" style="width:100%" onclick="currentSlide(9)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION  ...">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="10.jpeg" style="width:100%" onclick="currentSlide(10)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION ...">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="11.jpeg" style="width:100%" onclick="currentSlide(11)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION ...">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="12.jpeg" style="width:100%" onclick="currentSlide(12)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION ...">
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="column">
+        <img class="demo cursor" src="13.jpeg" style="width:100%" onclick="currentSlide(13)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION ...">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="14.jpeg" style="width:100%" onclick="currentSlide(14)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION ...">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="15.jpeg" style="width:100%" onclick="currentSlide(15)" alt="VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION ...">
+      </div>
+   </div>
+  </div>
+
+  <script>
+      let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+  </script>
+  </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <h3 class="text-light">
+                24,900 CHF
+            </h3>
+        </div>
+        <div class="col-md-3">
+          <h4 style="color: #FF0200;">
+             249 CHF im Monat
+          </h4>
+      </div>
+        <div class="col-md-3">
+          <div>
+            <a href="https://api.whatsapp.com/send?phone=+38349277565" target="_blank" class="text-light">
+                <img src="../../../socialmedia/whatsap.png" alt="WhatsApp" width="40" height="40">-Whatsapp
+            </a>
+        </div>
+        </div>
+        <div class="col-md-3  d-flex flex-row">
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1">&#9733;</label>
+              </div>
+              <p id="selectedRating"></p>
+              <script>
+                  document.addEventListener('DOMContentLoaded', function() {
+  const ratingInputs = document.querySelectorAll('input[name="rating"]');
+  const selectedRatingDisplay = document.getElementById('selectedRating');
+
+  // Check if there's a stored rating
+  const storedRating = localStorage.getItem('userRating');
+  if (storedRating) {
+    document.querySelector(`input[value="${storedRating}"]`).checked = true;
+    selectedRatingDisplay.textContent = `. ${storedRating}`;
+  }
+
+  ratingInputs.forEach(input => {
+    input.addEventListener('change', function() {
+      selectedRatingDisplay.textContent = `. ${this.value}`;
+      // Store the selected rating in localStorage
+      localStorage.setItem('userRating', this.value);
+    });
+  });
+});
+              </script>              
+        </div>
+    </div>
+</div>
+<div class="container text-light mt-5">
+  <div class="row">
+          <div class="col-md-12">
+            <table style="background-color: #3C0100;">
+              <tr>
+                <th>Marke:</th>
+                <td>VW</td>
+                
+              </tr>
+              <tr>
+                <th>Model:</td>
+                <td>Sharan</td>
+              </tr>
+              <tr>
+                <th>Jahr:</td>
+                <td>2018</td>
+              </tr>
+              <tr>
+                <th>Kilometer:</td>
+                <td>163,800km</td>
+              </tr>
+              <tr>
+                <th>Getriebe:</td>
+                <td>Schaltgetriebe manuell</td>
+              </tr>
+              <tr>
+                <th>Antrieb:</td>
+                <td>Vorderradantrieb </td>
+              </tr>
+              <tr>
+                <th>Treibstoff:</td>
+                <td>Benzin</td>
+              </tr>
+              <tr>
+                <th>Farbe:</td>
+                <td> Grau Metallic</td>
+              </tr>
+              <tr>
+                <th>Turen:</td>
+                <td> 4</td>
+              </tr>
+              <tr>
+                <th>Sitze:</td>
+                <td> 5</td>
+              </tr>
+              <tr>
+                <th>Zylinder:</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <th>Neupreis:</td>
+                <td> 50870</td>
+              </tr>
+            </table>
+             </div>
+          </div>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12 text-light">
+      <p>
+        Leasing oder Finanzierung mit Anzahlung ab CHF 249.- im Monat. Ohne Anzahlung 
+        ab CHF 399.- im Monat möglich. Wir erledigen alles für Sie, kommen Sie vorbei und überzeugen Sie sich selbst. <br>
+        
+        Verkauft wird ein Wunderschöner Familienauto der sehr gepflegt wurde, innen so wie auch aussen VW Sharan 2.0 TDI BMT 184PS Highline DSG 4MOTION Facelift Modell 2018, 7 Sitze! vom neusten Generation, wurde zu 90% nur Autobahn gefahren und regelmässig in Service nur bei Amag gebracht. Das Auto ist top Ausgestattet, mit schwarz Leder Alcantara Sitze, Sitzheizung vorne, Parkpilot= parkiert selbst, Fahrersitz Eco ergo, Auto Pilot, Rückfahrkamera, Spurhalteassistent, ACC Abstand-Tempomat, und und und...<br>
+        Hat kleine gebrauchspuren sowie Kratzer!<br>
+        Einfach einlösen und Fahren. 
+         
+
+      </p>
+    </div>
+  </div>
+</div>
+<div class="contaier mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <video id="myVideo" controls autoplay muted loop>
+        <source src="1.mov" type="video/mp4">
+      </video>
+      
+      <script>
+        // Get the video element
+        var video = document.getElementById("myVideo");
+      
+        // Disable volume controls
+        video.addEventListener("volumechange", function(e) {
+          video.muted = true;
+        });
+      
+        // Hide the volume control button
+        video.addEventListener("loadedmetadata", function() {
+          var controlsList = video.getAttribute("controlsList") || "";
+          controlsList += " nodownload noremoteplayback";
+          video.setAttribute("controlsList", controlsList);
+        });
+      </script>
+    </div>
+    <div class="col-md-6">
+      <video id="myVideo-2" width="640" height="260" controls autoplay muted loop>
+        <source src="2.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      
+      <script>
+        // Get the video element
+        var video = document.getElementById("myVideo-2");
+      
+        // Disable volume controls
+        video.addEventListener("volumechange", function(e) {
+          video.muted = true;
+        });
+      
+        // Hide the volume control button
+        video.addEventListener("loadedmetadata", function() {
+          var controlsList = video.getAttribute("controlsList") || "";
+          controlsList += " nodownload noremoteplayback";
+          video.setAttribute("controlsList", controlsList);
+        });
+      </script>
+    </div>
+  </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 style="color: white;"> Ausstattung</h3>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+  <div class="row">
+      <div class="col-md-12">
+          <h3 style="color: white;"> Ausstattung</h3>
+      </div>
+  </div>
+</div>
+<div class="container mt-5 text-light">
+  <div class="row">
+      <div class="col-md-12">
+          <div class="row">
+              <div class="col-md-3">
+                  <p><b>1.7 Sitze!</b></p>
+                  <p><b>2.Fernlicht Assistent </b></p>
+                  <p><b>3.Spurhalteassistent</b></p>
+                  <p><b>4.ACC Abstandtempomat </b></p>
+                  <p><b>5.Auto Pilot</b></p>
+                  <p><b>6.Parkpilot </b></p>
+                  <p><b>7.Fernlichtregulierung </b></p>
+                  <p><b>8.Sign Assistent</b></p>
+                  <p><b>9.Lane Assistent  </b></p>
+                  <p><b>10.Ausparkassistent </b></p>
+              </div>
+              <div class="col-md-3">
+                  <p><b>1.Blind Spot</b></p>
+                  <p><b>2.Müdigkeitserkennung</b></p>
+                  <p><b>3.Assistent </b></p>
+                  <p><b>4.DSG- Automat Getriebe</b></p>
+                  <p><b>5.Dynamic Light Assistent</b></p>
+                  <p><b>6.Totewinkel-Assistent/ Blind  </b></p>
+                  <p><b>7.Spot </b></p>
+                  <p><b>8.Abstand-Tempomat</b></p>
+                  <p><b>9.Rückfahrkamera </b></p>
+                  <p><b>10.Elektrische Heckklappe</b></p>
+              </div>
+              <div class="col-md-3">
+                <p><b>1.Elektrische Seiten Türen</b></p>
+                <p><b>2.Engine Start Stop</b></p>
+                <p><b>3.Tempomat</b></p>
+                <p><b>4.Keylees Go</b></p>
+                <p><b>5.Parksensorent</b></p>
+                <p><b>6.Sitzheizung vorne</b></p>
+                <p><b>7.Schwarze Leder sitze </b></p>
+                <p><b>8.Alcantara </b></p>
+                <p><b>9.Led Scheinwerfer </b></p>
+                <p><b>10.Multifunktionslenkrad Leder</b></p>
+              </div>
+              <div class="col-md-3">
+                <p><b>1.Kurvenlicht</b></p>
+                <p><b>2.Grosse VW </b></p>
+                <p><b>3.Navigationssystem / </b></p>
+                <p><b>4.Touchscreen </b></p>
+                <p><b>5.Müdigkeitserkennungs </b></p>
+                <p><b>6.Sensor</b></p>
+                <p><b>7.Auto-Lichtsensor </b></p>
+                <p><b>8.Auto-Regensensor</b></p>
+                <p><b>9.18x Airbags </b></p>
+                <p><b>10.Regelmässig Service</b></p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container" style="margin-top: 150px;">
+    <div class="row">
+        <div class="col-lg-6 text-light">
+            <h1>
+                Contact Us
+            </h1>
+            <p>Seit stolzen 22 Jahren sind wir als Autohändler leidenschaftlich dabei, unseren Kunden erstklassige Fahrzeuge und exzellenten Service zu bieten. In dieser langen Zeit haben wir nicht nur Fahrzeuge verkauft, sondern auch Vertrauen aufgebaut und langfristige Beziehungen zu unseren Kunden gepflegt.</p>
+                <p>Auto Center Aargau Ag<br>
+                1. Standort Im Vorderasp 3, 8154 Oberglatt<br>
+                2. Standort Schaffhauserstrasse 150, 8400 Winterthur</p>
+                <p>
+                    <h5><a href="tel:+4172890419913" class="text-light">+41*********</a></h5>
+                    <h5><a href="mailto:info@autocenteraargauag.ch" class="text-light">info@autocenteraargauag.ch</a></h5>
+                </p>
+                <div>
+                  <a href="https://api.whatsapp.com/send?phone=+38349277565" target="_blank" class="text-light">
+                      <img src="../../../socialmedia/whatsap.png" alt="WhatsApp" width="40" height="40">-Whatsapp
+                  </a>
+              </div>
+                
+        </div>
+        <div class="col-lg-6">
+            <form action="mailto:info@autocenteraargauag.ch" method="post" enctype="text/plain"><br>
+                <input type="text" name="Name" placeholder="Name" id="input"><br>
+                <input type="text" name="Email" placeholder="Email*" id="input"><br>
+                <input type="tel" id="input" name="Phone" placeholder="Number"><br>
+                <textarea id="message" placeholder="Message*" name="Mesagge"></textarea><br>
+               <div class="center"><input class="mt-5 mx-auto"  style=" background-color: #FF3E24; border-radius: 30px;padding: 5px 20px; border: 1px solid #FF3E24; color: white;" type="submit"  value="Senden"></div>
+             </form>
+        </div>
+    </div>
+</div>
+<div class="container mt-5" style="background-color: white; color: black;">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="comments-container">
+        <h2>Auto Comments</h2>
+        <div id="comments"></div>
+        <form id="commentForm">
+          <textarea id="commentInput" placeholder="Enter your comment"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const commentForm = document.getElementById('commentForm');
+  const commentInput = document.getElementById('commentInput');
+  const commentsContainer = document.getElementById('comments');
+
+  // Load comments from local storage when the page loads
+  loadComments();
+
+  commentForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    const commentText = commentInput.value.trim();
+    if (commentText !== '') {
+      addComment(commentText);
+      saveComment(commentText);
+      commentInput.value = '';
+    }
+  });
+
+  function addComment(commentText) {
+    const commentElement = document.createElement('div');
+    commentElement.classList.add('comment');
+    commentElement.textContent = commentText;
+    // Add a delete button to each comment
+    const deleteButton = document.createElement('button');
+    deleteButton.textContent = 'Delete';
+    deleteButton.classList.add('delete-button');
+    deleteButton.addEventListener('click', function() {
+      commentElement.remove();
+      removeComment(commentText);
+    });
+    commentElement.appendChild(deleteButton);
+    commentsContainer.appendChild(commentElement);
+  }
+
+  function saveComment(commentText) {
+    // Retrieve existing comments from local storage
+    let comments = JSON.parse(localStorage.getItem('comments')) || [];
+    // Add the new comment to the array
+    comments.push(commentText);
+    // Save the updated comments array back to local storage
+    localStorage.setItem('comments', JSON.stringify(comments));
+  }
+
+  function loadComments() {
+    // Retrieve comments from local storage
+    const comments = JSON.parse(localStorage.getItem('comments')) || [];
+    // Display each comment
+    comments.forEach(addComment);
+  }
+
+  function removeComment(commentText) {
+    // Retrieve existing comments from local storage
+    let comments = JSON.parse(localStorage.getItem('comments')) || [];
+    // Remove the comment from the array
+    comments = comments.filter(comment => comment !== commentText);
+    // Save the updated comments array back to local storage
+    localStorage.setItem('comments', JSON.stringify(comments));
+  }
+});
+
+
+</script>   
+
+    </div>
+  </div>
+</div>
+</section>
+<section class="sixth-part">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12 mt-5">
+              
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid pb-5">
+      <div class="row">
+          <div class="col-lg-3">
+              <h2>Service</h2>
+              <p><span>✓</span> Erstklassige Fahrzeuge</p>
+              <p><span>✓</span> Top Service </p>
+              <p><span>✓</span> 12 Monate Garantie </p>
+              <p><span>✓</span> 98% CH Fahrzeuge</p>
+              <button id="shop-now" class="rounded-pill">
+                  <a href="../../../Kontakt/contact.html">
+                      Kontakt
+                  </a>
+              </button>
+          </div>
+          <div class="col-lg-3">
+                   <h3>Kontakt</h3>
+                  <h3>↓</h3>
+                  <div class="flip-card">
+                  <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                      <img src="../../../img/firm.jpg" alt="Avatar" style="width:300px;height:300px;" id="flip-img">
+                      </div>
+                      <div class="flip-card-back">
+                      <h1>Auto Center Aargau AG</h1> 
+                      <p><a href="mailto:info@autocenteraargauag.ch">info@autocenteraargauag.ch</a></p> 
+                      <p><a href="tel:+4172890419913">+41*********</a></p>
+                      </div>
+                  </div>
+                  </div>
+      </div>
+      <div class="col-lg-3">
+          <h3>Soziale Medien</h3>
+         <h3>↓</h3>
+         <div class="flip-card">
+         <div class="flip-card-inner">
+             <div class="flip-card-front">
+             <img src="../../../img/social-media.jpg" alt="Avatar" style="width:300px;height:300px;" id="flip-img">
+             </div>
+             <div class="flip-card-back">
+             <h1>Auto Center Aargau AG</h1> 
+             <p><a href="">Facebook</a></p> 
+             <p><a href="">Instagram</a></p>
+             <p><a href="">Tik Tok</a></p>
+             <p><a href="">Whatsapp</a></p>
+             </div>
+         </div>
+         </div>
+</div>
+          <div class="col-lg-3">
+              <h3>MAP</h3>
+          <h3>↓</h3>
+          <div class="flip-card">
+          <div class="flip-card-inner">
+              <div class="flip-card-front">
+              <img src="../../../img/location.png" alt="Avatar" style="width:300px;height:300px;" id="flip-img">
+              </div>
+              <div class="flip-card-back">
+              <h1>Auto Center Aargau AG</h1> 
+              <p><a href="">Standort</a></p> 
+              </div>
+          </div>
+          </div>
+          </div>
+  </div>
+  </div>
+</section>
+    <!--Here starts the footer-->
+      <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="../../../img/logo-1.jpg" alt="" id="logo-2">
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li><a href="../../../index.html">Home</a></li>
+                        <li><a href="../../../Kategorie/index.html">Kategorie</a></li>
+                        <li><a href="../../../Uberuns/index.html">Über uns</a></li>
+                        <li><a href="../../../Kontakt/contact.html">Kontakt</a></li>
+                     </ul>
+                </div>
+                <div class="col-md-3 ">
+                    <p style="color: white;">
+                        Bei uns an der Bremgarterstrasse 75 in Auto Center Aargau AG, finden Sie über 500 Autos aller Marken zu den tiefsten Preisen der Schweiz.
+                                            Seit 1967 kaufen wir unsere Fahrzeuge weltweit ein, damit wir günstigste Preise anbieten können. Die Werks- oder Schweiz-Garantie 
+                                            ist natürlich inbegriffen.
+                    </p>
+                </div>
+                <div class="col-md-3 " style="color: white;">
+                    <h1>+41*******</h1>
+                    <p><a href="mailto:info@autocenteraargauag.ch">info@autocenteraargauag.ch</a></p>
+                    <p>Auto Center Aargau AG</p>
+                    <p>1. Wohlerstrasse 2, 5623 Boswil</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <div>
+                      <a href="https://api.whatsapp.com/send?phone=+38349277565" target="_blank" class="text-light">
+                          <img src="../../../socialmedia/whatsap.png" alt="WhatsApp" width="40" height="40" id="whatsapp">
+                      </a>
+                  </div>
+                    <a href="#" class="fa fa-instagram"></a>  
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-light text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>© 2024 AutoCenterAargauAg | Impressum | Datenschutz</p>
+                </div>
+            </div>
+        </div>
+    </footer>  
+</body>
+</html>
