@@ -1,3 +1,4 @@
+//THERE IS THE RATING PART
 document.addEventListener('DOMContentLoaded', function() {
     const ratingContainers = document.querySelectorAll('.rating');
   
